@@ -35,10 +35,13 @@ Getting started with Slate is super easy! Simply press the green "use this templ
 Getting Started with Slate / Orphic CLI
 ------------------------------
 
-Ensure [Ruby Orphic CLI](https://github.com/orphic-inc/ruby-orphic-cli) and Node Orphic CLI are running concurrently. This site should target [https://github.com/orphic-inc/orphicoin-com](https://orphicoin.com).
+Ensure [Ruby Orphic CLI](https://github.com/orphic-inc/ruby-orphic-cli) and [Node Orphic CLI](https://github.com/orphic-inc/node-orphic-cli) are running concurrently. This site should target [https://github.com/orphic-inc/orphicoin-com](https://orphicoin.com).
 
 Depending on which fails, ensure `ruby --version` returns version 2.7.0 or greater, depending on your OS:
 // TODO WINDOWS / MAC / LINUX
+
+Node should run on v12 or lower, TBD on v14 testing: `node --version`.
+// TODO LINKS FOR NPM TESTING/ETC
 
 To get started with Slate, please check out the [Getting Started](https://github.com/slatedocs/slate/wiki#getting-started)
 section in our [wiki](https://github.com/slatedocs/slate/wiki).
